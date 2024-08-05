@@ -1,15 +1,20 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import  Characters  from "../component/characters.js";
+import Starships from "../component/starships.js";
+import Species from "../component/species.js";
 
-export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
+
+
+
+
+
+const Home = () => (
+	<div className="home">
+		<Characters/>
+		<Starships/>
+		<Species/>
 	</div>
 );
+export default Home;

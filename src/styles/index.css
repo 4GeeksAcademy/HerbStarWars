@@ -1,3 +1,48 @@
 /* 
     General Styles
 */
+.characters {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+.starships {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+.species {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home {
+    margin: 1rem 5rem;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+.favorites {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
